@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onNext(String s) {
                 Log.d("Rx", "Name:" + s);
-
                 txvFromCall.setText("Name: " + s);
             }
         });
